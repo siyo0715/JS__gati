@@ -1,0 +1,13 @@
+コールスタック(Call Stack)
+実行中のコードが辿ってきたコンテキストの積み重ね
+
+function a(){
+
+}
+function b(){
+
+}
+function c(){
+
+}
+c();
