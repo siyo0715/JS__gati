@@ -1,0 +1,22 @@
+関数(function)
+
+一連の手続き（処理）を実行する分の集まり。
+
+function fn(){
+    let a = 0;
+    let b = 1;
+    let c = a + b
+}
+
+引数と戻り値
+
+・関数にわたす変数が「引数」
+
+function fn( 引数1 , 引数2 ) {
+    return 戻り値;
+}
+
+function fn( 仮引数1 , 仮引数2 ) {
+    return 戻り値;
+}
+fn( 実引数1 , 実引数2 );
