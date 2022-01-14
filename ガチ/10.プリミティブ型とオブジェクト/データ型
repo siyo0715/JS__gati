@@ -1,0 +1,53 @@
+データ型
+
+文字列、数値などの異なる値の型をデータ型という
+
+
+プリミティブ型(primitive)
+
+・String
+・Number
+・Boolean
+・Undefined
+・Null
+・Symbol
+・BigInt
+
+変数には値が格納される。
+一度作成するとその値を変更することはできない。
+
+let a = 'Hello';
+let b = a;
+b = 'Bye'
+
+(↑変数bはByeに変わったが変数aは変わったわけではない)
+_____________________________________________________________
+オブジェクト
+
+名前(プロパティー)付きの参照を管理する入れ物
+
+let obj = {
+    property1: 'Hello',
+    property2: function(){
+
+    },
+    property3: {
+        d :'Bye'
+    }
+}
+
+・Object
+
+(primitive型以外)
+
+変数には参照が格納される。
+値を変更することができる。
+
+let a = {
+    prop: 'Hello'
+};
+
+let b = a;
+b.prop = 'Bye';
+
+(↑変数aのpropごと変わる)
