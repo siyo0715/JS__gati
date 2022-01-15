@@ -51,3 +51,9 @@ let b = a;
 b.prop = 'Bye';
 
 (↑変数aのpropごと変わる)
+
+
+function fn(a) {
+    let b = 0
+}
+fn(b)
