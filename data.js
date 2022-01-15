@@ -13,4 +13,14 @@ let c = {
 }
 let d = c;
 d.prop = 'bye';
-console.log(c,d)
+console.log(c, d);
+
+
+// オブジェクトconstは再代入可能
+
+const e = {
+    prop: 'hello'
+}
+//e = {}
+e.prop = 'bye'
+console.log(b)
